@@ -1,0 +1,7 @@
+
+
+minutos_totales = int(input("Ingrese la cantidad de minutos: "))
+
+horas = minutos_totales / 60 # división entera: horas completas
+minutos = minutos_totales % 60 # módulo: minutos restantes
+print(minutos_totales, "minutos equivalen a", horas, "horas y", minutos_totales, "minutos")
